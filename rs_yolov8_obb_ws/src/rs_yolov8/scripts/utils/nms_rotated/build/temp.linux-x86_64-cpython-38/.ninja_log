@@ -1,0 +1,5 @@
+# ninja log v5
+0	5298	1710157164	/home/lenovo/Downloads/2Ddetection/Yolov8_obb_Prune_Track-main/utils/nms_rotated/build/temp.linux-x86_64-cpython-38/src/nms_rotated_cpu.o	f1913b48ffccab9d
+1	11618	1710157171	/home/lenovo/Downloads/2Ddetection/Yolov8_obb_Prune_Track-main/utils/nms_rotated/build/temp.linux-x86_64-cpython-38/src/poly_nms_cuda.o	9788cd39e56caed3
+1	13181	1710157172	/home/lenovo/Downloads/2Ddetection/Yolov8_obb_Prune_Track-main/utils/nms_rotated/build/temp.linux-x86_64-cpython-38/src/nms_rotated_ext.o	ba890e29c0a26123
+0	13867	1710157173	/home/lenovo/Downloads/2Ddetection/Yolov8_obb_Prune_Track-main/utils/nms_rotated/build/temp.linux-x86_64-cpython-38/src/nms_rotated_cuda.o	f2c21bffb61f123a

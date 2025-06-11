@@ -1,0 +1,2 @@
+rs_yolov8
+-DCATKIN_DEVEL_PREFIX=/home/lenovo/Downloads/2Ddetection/rs_yolov8_obb_ws/devel -DCMAKE_INSTALL_PREFIX=/home/lenovo/Downloads/2Ddetection/rs_yolov8_obb_ws/install -G Unix Makefiles

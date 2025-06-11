@@ -1,0 +1,6 @@
+<launch>
+
+    <node pkg="rs_yolov8" name="rs_yolov8" type="detect_ros.py" output="screen">
+    </node>
+    
+</launch>

@@ -1,0 +1,15 @@
+Looking in indexes: https://pypi.org/simple, https://pypi.ngc.nvidia.com
+Collecting mmcv-full
+  Downloading mmcv-full-1.7.2.tar.gz     ━�     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 607.9/607.9 kB 11.9 kB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+ng addict
+  Downloading addict-2.4.0-py3-none-any.whl (3.8 kB)
+Collecting mmengine>=0.3.0
+  Downloading mmengine-0.10.3-py3-none-any.whl (451 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 451.7/451.7 kB 13.7 kB/s eta 0:00:00
+Requirement already satisfied: numpy in /home/lenovo/anaconda3/lib/python3.9/site-packages (from mmcv) (1.21.5)
+Requirement already satisfied: packaging in /home/lenovo/anaconda3/lib/python3.9/site-packages (from mmcv) (21.3)
+Requirement already satisfied: Pillow in /home/lenovo/anaconda3/lib/python3.9/site-packages (from mmcv) (9.2.0)
+Requirement already satisfied: pyyaml in /home/lenovo/anaconda3/lib/python3.9/site-packages (from mmcv) (6.0)
+Requirement already satisfied: yapf in /home/lenovo/anaconda3/lib/python3.9/site-packages (from mmcv) (0.31.0)

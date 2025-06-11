@@ -1,0 +1,32 @@
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+# path: ./dataset # dataset root dir
+# train: dataset_demo/images #images   # train images (relative to 'path') 
+# val: dataset_demo/images #images  # val images (relative to 'path') 
+# test: dataset_demo/images  #images # test images (optional)
+
+
+# path: /home/lenovo/Downloads/2Ddetection/Yolov8_obb_Prune_Track-main/data/custom_data/ # dataset root dir
+# train: train.txt #images   # train images (relative to 'path') 
+# val: val.txt #images  # val images (relative to 'path') 
+# test: val.txt  #images # test images (optional)
+
+# weight:  "weights/yolov8n.pt"
+weight:  "/home/lenovo/Downloads/2Ddetection/rs_yolov8_obb_ws/src/rs_yolov8/scripts/weights/best.pt"
+input_size: 640
+
+nc: 8  # number of classes
+names: ['doll0','doll1','doll2','doll3','doll4','doll5','doll6','doll7',]  
+
+
+# 阈值设置
+threshold:
+  iou: 0.2
+  confidence: 0.60
+
+# 计算设备
+# - cpu
+# - 0 <- 使用GPU
+device: '0'
+
